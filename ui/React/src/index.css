@@ -1,0 +1,34 @@
+:root{
+    --bg-card: #27272a;
+  --primary: #6d28d9;
+  --primary-800: #4c1d95;
+  --primary-shadow: #2e1065;
+  --light: #392727;
+  --zinc-800: #18181b;
+  --bg-linear: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.page{
+    background-color: rgba(233, 227, 225, 0.283);
+    height: 100vh;
+    overflow: scroll;
+    padding: 15px;
+}
+
+.text-gradient{
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
