@@ -11,7 +11,7 @@ function Product() {
     <div>
     <Navbar/>
       <Container>
-        <Card/>
+        <Card />
         {/* {data} */}
       </Container>
     </div>

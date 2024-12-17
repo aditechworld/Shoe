@@ -6,11 +6,12 @@ import Signup from './pages/Signup'
 import { BrowserRouter,Routes,Route, RouterProvider, createBrowserRouter } from 'react-router-dom'
 import ErrorPage from './pages/ErrorPage'
 async function getProduct(){
-  const reposnse = await fetch("http://localhost:8080/product")
-  if(!reposnse.ok){
-    throw new Error("Failed to load Product")
-  }
-  return await reposnse.json();
+  return ""
+  // const reposnse = await fetch("http://localhost:8080/product")
+  // if(!reposnse.ok){
+  //   throw new Error("Failed to load Product")    
+  // }
+  // return await reposnse.json();
 }
 
 const router = createBrowserRouter([
